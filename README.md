@@ -1,10 +1,11 @@
 # tmux-remote
 
-[![Build Status](https://travis-ci.org/danyim/tmux-remote.svg?branch=master)](https://travis-ci.org/danyim/tmux-remote)
+[![Build Status](https://travis-ci.org/klueska/tmux-remote.svg?branch=master)](https://travis-ci.org/klueska/tmux-remote)
 
-`tmux-remote` is a simple plugin that allows for toggling your tmux session's keybindings. This is especially useful when in nested remote tmux sessions that use the same prefix key as the host.
-
-![](https://i.imgur.com/3gfFGpk.png)
+`tmux-remote` is a simple plugin that allows for toggling your tmux session's
+keybindings. When toggled off, the status bar is disabled. This is especially
+useful when in nested remote tmux sessions that use the same prefix key as the
+host.
 
 Tested and working macOS and Linux.
 
@@ -16,7 +17,7 @@ Install using [tpm](https://github.com/tmux-plugins/tpm) (tmux Plugin Manager)
 By adding the following in your `.tmux.conf`:
 
 ```tmux
-set -g @plugin 'danyim/tmux-remote'
+set -g @plugin 'klueska/tmux-remote'
 ```
 
 Then hit `prefix + I` to fetch the plugin and source it.
@@ -25,7 +26,7 @@ Then hit `prefix + I` to fetch the plugin and source it.
 
 Clone the repo:
 
-    $ git clone https://github.com/danyim/tmux-remote
+    $ git clone https://github.com/klueska/tmux-remote
 
 Add this line to the bottom of `.tmux.conf`:
 

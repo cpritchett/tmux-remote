@@ -2,5 +2,5 @@
 
 tmux set -u prefix
 tmux set -u key-table
-tmux set -g status-left ""
+tmux set -g status on
 tmux refresh-client -S
