@@ -17,7 +17,7 @@ Install using [tpm](https://github.com/tmux-plugins/tpm) (tmux Plugin Manager)
 By adding the following in your `.tmux.conf`:
 
 ```tmux
-set -g @plugin 'klueska/tmux-remote'
+set -g @plugin 'cpritchett/tmux-remote'
 ```
 
 Then hit `prefix + I` to fetch the plugin and source it.
@@ -26,7 +26,7 @@ Then hit `prefix + I` to fetch the plugin and source it.
 
 Clone the repo:
 
-    $ git clone https://github.com/klueska/tmux-remote
+    $ git clone https://github.com/cpritchett/tmux-remote
 
 Add this line to the bottom of `.tmux.conf`:
 
