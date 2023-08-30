@@ -1,6 +1,6 @@
 # tmux-remote
 
-[![Build Status](https://travis-ci.org/klueska/tmux-remote.svg?branch=master)](https://travis-ci.org/klueska/tmux-remote)
+
 
 `tmux-remote` is a simple plugin that allows for toggling your tmux session's
 keybindings. When toggled off, the status bar is disabled. This is especially
